@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteRule ^gestInscription$ src/view/Inscription.php
+RewriteRule ^gestConnexion$ src/view/Connexion.php
+RewriteRule ^gestDeconnexion$ src/controller/membreController.php?deconnexion=1
+
+RewriteRule ^article$ src/view/article.php
+RewriteRule ^accueil$ src/view/accueil.php
+RewriteRule ^membre$ src/view/membre.php
+RewriteRule ^gestInscriptionErreur$ src/view/Inscription.php?erreur
